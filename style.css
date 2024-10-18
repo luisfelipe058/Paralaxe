@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    line-height: 1.6;
+    background-color: #e0e0e0;
+
+}
+
+.header {
+    background-color: #faa536;
+    color: #bb3b00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: "Playwrite GB S", cursive;
+}
+
+.header p {
+    font-size: 1.2rem;
+
+}
+
+.container {
+    display: flex;
+    /*deixa os elementos um do lado do outro*/
+    /* flex-wrap: wrap; quebra de linha  */
+    /* justify-content: center; Alinhamento horizontal */
+    align-items: center;
+    /*Alinhamento vertical*/
+    padding: 15px;
+    height: 100vh;
+    /*100vh exatamente o tamanho da tela*/
+    background-color: #e0e0e0;
+}
+
+
+
+/* .box{
+    background-color: #c2bfbf;
+    padding: 50px;
+    margin: 10px;
+    width: 40%;
+    text-align: center;
+    font-size: 23px;
+} */
+
+.footer {
+    background-color: #faa536;
+    color: #bb3b00;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.parallax1 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/12/19/20/cyclist-5164608_640.jpg);
+}
+
+.parallax2 {
+    background-image: url(https://cdn.pixabay.com/photo/2022/02/07/08/30/woman-6998808_640.jpg);
+}
+
+.parallax3 {
+    background-image: url(https://cdn.pixabay.com/photo/2023/06/25/23/50/bicycle-8088372_640.jpg);
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 img {
+    border-radius: 15px;
+    height: 60%;
+    margin: auto;
+    box-shadow: 8px 8px 10px #3b3b3b;
+
+}
+
+
+.box1 {
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 10px;
+    width: 40%;
+    text-align: center;
+    font-size: 23px;
+}
+
+.box2 {
+    background-color: chartreuse;
+    padding: 60px;
+    margin: 10px;
+    width: 60%;
+    height: 95%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.container2 img {
+    height: 60%;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 10px #3b3b3b;
+}
+
+.box2 h2 {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.container3 img {
+    height: 60%;
+    margin-right: 30px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 8px 8px 10px #3b3b3b;
+}
+
+.box3 {
+    background-color: rgb(204, 240, 0);
+    padding: 50px;
+    margin: 10px;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.box3 h2 {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 480px){
+    .box1{
+        display: block;
+        width: 50vh;
+        height: 80vh;
+        margin: auto;
+        padding: 60px;
+       
+    }
+
+    .box1 p{
+        font-size: 15px;
+    }
+
+    
+
+    .box3{
+        display: block;
+        width: 50vh;
+        height: 80vh;
+        margin: auto;
+        padding: 60px;
+    }
+
+    .box3 p{
+        font-size: 15px;
+    }
+}
